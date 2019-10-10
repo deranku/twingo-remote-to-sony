@@ -7,7 +7,7 @@ For the remote to arduino and the code part, my approach is heavily based on [th
 It seems that all base functions/resistances work the same across Sony and Pioneer, while anything phone specific (call/reject/voice control) does not. Trial and error..
 
 ## Remote to Arduino and power
-![Power](/docs/twingo-sony-power.jpg)The remote is solely connected through a male Mini-ISO plug (yellow), which fits in the factory radio. For testing, the remote can be removed from the car with a few screws. I removed it eventually, it saved a lot of times running to the car. I got a female Mini-ISO plug from ebay which connects the  remote to Arduino.  
+![Power](/docs/twingo-sony-power.jpeg)The remote is solely connected through a male Mini-ISO plug (yellow), which fits in the factory radio. For testing, the remote can be removed from the car with a few screws. I removed it eventually, it saved a lot of times running to the car. I got a female Mini-ISO plug from ebay which connects the  remote to Arduino.  
 The Arduino is powered via USB from a cigarette lighter socket to USB adapter. I used a cable with a right-angled USB-A plug that leads to the ashtray and down the console to the Arduino (if you remove the ashtray, you can lead the cable into the console and then hook the ashtray back in again).  
 This way, you don't have to mingle with the car electrics and the whole operation can be removed without traces. Also, no need to worry about surges, a step down converter, etc. I stuffed everything in the console, around the radio there is enough room.
 
